@@ -1,0 +1,14 @@
+﻿# requirements.txt
+# Secure Executive Assistant - LangGraph + HITL + RAG
+# ─────────────────────────────────────────────────────
+# Core LangChain / LangGraph
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-core>=0.3.0
+
+# LLM provider packages (install whichever you need)
+langchain-google-genai>=2.0.0   # for GOOGLE_API_KEY
+langchain-groq>=0.2.0            # for GROQ_API_KEY
+
+# Typing back-port (for Python < 3.11)
+typing-extensions>=4.9.0
